@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A3BC91E1C020EF8005A4EB6 /* MLWeiBoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BC91D1C020EF8005A4EB6 /* MLWeiBoCell.m */; };
 		1AF65E4D1C00BC56001AB04D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF65E4C1C00BC56001AB04D /* main.m */; };
 		1AF65E501C00BC56001AB04D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF65E4F1C00BC56001AB04D /* AppDelegate.m */; };
 		1AF65E561C00BC56001AB04D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF65E541C00BC56001AB04D /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A3BC91C1C020EF8005A4EB6 /* MLWeiBoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLWeiBoCell.h; sourceTree = "<group>"; };
+		1A3BC91D1C020EF8005A4EB6 /* MLWeiBoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLWeiBoCell.m; sourceTree = "<group>"; };
 		1AF65E481C00BC56001AB04D /* SampleWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF65E4C1C00BC56001AB04D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1AF65E4E1C00BC56001AB04D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				1AF65E541C00BC56001AB04D /* Main.storyboard */,
+				1A3BC91C1C020EF8005A4EB6 /* MLWeiBoCell.h */,
+				1A3BC91D1C020EF8005A4EB6 /* MLWeiBoCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 				1AF65E501C00BC56001AB04D /* AppDelegate.m in Sources */,
 				1AF65E4D1C00BC56001AB04D /* main.m in Sources */,
 				1AF65E721C00C674001AB04D /* MLWeiBo.m in Sources */,
+				1A3BC91E1C020EF8005A4EB6 /* MLWeiBoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +352,7 @@
 				1AF65E611C00BC57001AB04D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
